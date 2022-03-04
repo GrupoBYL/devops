@@ -14,6 +14,6 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          ftp-server: ftp.armadagroup.ai
-          ftp-username: devops@armadagroup.ai
-          ftp-password: ${{ secrets.ftp_password }}
+          server: ftp.armadagroup.ai
+          username: devops@armadagroup.ai
+          password: ${{ secrets.ftp_password }}
